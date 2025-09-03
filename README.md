@@ -9,6 +9,46 @@
 4. Checkout your personalized branch, the one with your name and GitHub handle.
 
 ---
+
+## ❖・What You’ll Do・❖
+
+For this assignment, you’ll be writing two separate programs, each requiring input from the user.
+
+### Program 1
+
+For Program 1, you’ll be writing a program that creates a string based on temperature and random factors.
+
+1. Your program should print your first and last initials in large block letters. Use each letter’s corresponding characters to form the letters. (See the **Example Output** section below.)
+2. Now, take input from the user in the form of a 5-character string, then save the string in reverse _without_ the first and last characters. In other words, trim the outside characters. For example, if the user enters `abewz`, your program would save `web`.
+3. Next, ask the user to enter a number in Fahrenheit. Your program should convert the value to Celsius and save it. For example, entering `32` should yield `0`.
+4. In this penultimate step, generate and save a random number between 32 – 16,384, inclusive.
+5. And, finally, combine the results of steps 2 – 4 and print it to the screen.
+
+#### Example Output
+
+If I was creating this program, it would look like this:
+
+```bash
+RRRRRRRR    VVV         VVV
+RRR    RRR   VVV       VVV
+RRR    RRR    VVV     VVV
+RR RRR         VVV   VVV
+RRR  RRR        VVV VVV
+RRR    RRR       VVVVV
+RRR      RRR      VVV
+
+Please enter a 5-character string:
+abewz
+
+Please enter a number in Fahrenheit:
+32
+
+Random number generated. Continuing...
+
+Your new string is 0.0web15769
+```
+
+---
 ## ❖・Due・❖
 Thursday, 18 September 2025, at 3:00 PM.
 
