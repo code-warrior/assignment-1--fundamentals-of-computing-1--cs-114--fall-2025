@@ -17,7 +17,7 @@ For this assignment, you’ll be writing two separate programs, each requiring i
 
 ### Program 1
 
-For Program 1, you’ll be writing a program that creates a string based on temperature and random factors.
+For the first program, you’ll be writing a program that creates a string based on temperature and random factors.
 
 1. Your program should print your first and last initials in large block letters. Use each letter’s corresponding characters to form the letters. (See the **Example Output** section below.)
 2. Now, take input from the user in the form of a 5-character string, then save the string in reverse _without_ the first and last characters. In other words, trim the outside characters. For example, if the user enters `abewz`, your program would save `web`.
@@ -50,6 +50,28 @@ Your new string is 0.0web15769
 ```
 
 ---
+
+### Program 2
+
+For the second program, you’ll convert a base 10 number to another base, both of which are chosen by the user. You’ll need to calculate and report the largest 4-digit number that can be represented using the entered base. You may not use any looping structure to solve this program. See **Example Output** below, and [this video](https://roy.vanegas.org/video/base-conversion.mp4), for a full example of what the input must look like and the resulting output.
+
+#### Example Output
+
+Here’s an example of using 3 as the base and 17 as the base 10 number.
+
+```bash
+Base Conversion Program
+
+Please enter a base (2 – 9): 3
+
+The maximum, 4-digit, base 10 number in base 3 is 80.
+Now, enter a base 10 number in the range 0 to 80 to convert: 17
+
+17 (base 10) = 0122 (base 3)
+```
+
+---
+
 ## ❖・Due・❖
 
 Thursday, 18 September 2025, at 3:00 PM.
